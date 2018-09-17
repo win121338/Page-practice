@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="js/jQuery 3.3.1.js"></script>
+    <title>主页</title>
+</head>
+<style>
+
+a{
+    text-decoration:none;
+    color: #fff;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+ul{
+    list-style-type: none;
+}
+h1{
+    margin: 0;
+    padding-top:4%;
+    font-family: 'Yanone Kaffeesatz';
+}
+header{
+    background-image: url(images/bg02.jpg);
+    height:27rem;;
+}
+nav{
+    position: absolute;
+    top:9%;
+    left:35%;
+    font-weight: 400;
+}
+nav a{
+    margin-left:50px;
+}
+#title{
+    height: 8rem;
+    margin: 0 6% 0 6%;
+}
+.title_bottom{
+    margin-top:2%;
+    margin-right: 8%;
+    
+}
+.title_bottom p{
+    font-size: 1.4rem;
+    font-weight: bold;
+    color:rgb(141, 140, 140);
+    
+}
+.title_bottom button{
+    background-color: rgb(221, 50, 50);
+    border: none;
+    width:200px;
+    height: 40px;
+    font-size: 1.5rem;
+    color:#fff;
+    margin-top: 5%;
+    border-radius: 5%;
+}
+.title_2{
+    display: flex;
+    margin: 0 6% 0 6%;
+}
+.image_feature{
+    display: block;
+    background: #fff url(images/bg04.png);
+    padding: 10px;
+}
+#detail{
+    background-image: url(images/bg04.jpg);
+    height: 26rem;
+    font-family: 'Yanone Kaffeesatz';
+}
+#detail h2{
+    color:#fff;
+    font-size: 1.2rem;
+    margin-top:6%;
+    font-weight: 400;
+}
+#detail p{
+    color:#ccc;
+    font-weight: 100;
+}
+.section1{
+    width: 21%;
+    margin-right: 2.5%;
+}
+.blank{
+    padding-top:5%;
+}
+#inner{
+    background:#f7f7f7 url(images/bg04.png);
+    height: 43rem;
+}
+#inner .inner_1{
+    width: 23%;
+    background-color: #fff;
+    padding:2% 3% 3% 3%;
+    margin-right: 3%;
+    box-shadow: 2px 4px 5px #888888;
+}
+#inner .inner_2{
+    width: 23%;
+    background-color: #fff;
+    padding:2% 3% 3% 3%;
+    height: 18rem;
+    box-shadow: 2px 4px 5px #888888;
+}
+#inner h1{
+    font-weight: 400;
+    line-height: 2em
+}
+#inner p{
+    font-weight: 100;line-height: 1.5em;
+    
+}
+.inner_1 ul{
+    margin:0;
+    padding: 0;
+}
+.inner_1 ul li{
+    background:url(images/icon-checkmark.png) 2px 1.0em no-repeat;
+    font-size: 1.2rem;
+    padding:6% 2% 4% 11%;
+    border-bottom: 1px solid #ccc;
+}
+
+.inner_2 ul{
+    margin:0;
+    padding: 0;
+}
+.inner_2 ul li{
+    padding:0;
+    border-bottom: 1px solid #ccc;
+}
+.inner_2 ul li img{
+    float: left;
+}
+.inner_2 ul li span{
+    display: block;
+    margin-bottom: 9%;
+    margin-top:8%;
+    margin-left: 80px;
+    font-size: .8rem;
+    font-weight:bold;
+}
+.inner_2 ul li p{
+    margin: 2%;
+    margin-left: 80px;
+    font-size: 1.2rem;
+    font-weight:100;
+}
+.inner_4{
+    position:absolute;
+    bottom:1%;
+    right:12%;
+    width: 25.6%;
+    height: 8rem;
+    background-color:#fff; 
+    box-shadow: 2px 4px 5px #888888;
+}
+.inner_4 div{
+    padding:2% 3% 3% 8%;
+}
+.inner_4 p{
+    color:rgb(145, 145, 145)
+}
+#inner .blank{
+    padding-top:5%;
+    position: relative;
+}
+#footer{
+    background: url(images/bg03.jpg);
+    height: 22rem;
+}
+.footer_1{
+    display: flex;
+    margin: 0 6% 0 6%;
+}
+.footer_1 div{
+    margin-right: 5%;
+    width: 50%;
+}
+.footer_1 button{
+    background-color: rgb(221, 50, 50);
+    border: none;
+    width:100px;
+    height: 40px;
+    font-size: 1.2rem;
+    color:#fff;
+}
+.footer_1 input{
+    margin-top:2%;
+    width:16rem;
+    height: 2.1rem;;
+}
+.text{
+    margin-top: 5%;
+    color:#5a5656;
+}
+</style>
+<body>
+<header>
+        <div id="title">
+                <h1><a href="#"><b>Halcyonic</b></a></h1>
+                <nav>
+                        <a href="#">Homepage</a>
+                        <a href="#">Three Column</a>
+                        <a href="#">Two Column</a>
+                        <a href="#">Three Column</a>
+                        <a href="#">One Column</a>
+                </nav>
+        </div>
+        <hr style="border:none;background-color:rgb(133, 130, 130);height: 1px">
+        <div class="title_2">
+           <div class="title_bottom">
+            <p>We do something really useful,important</p> 
+            <p>and unique. Learn all about it here ...</p>
+            <button>Go on,Click me!</button>
+           </div>
+           <div class="title_bottom">
+               <a class="image_feature"><img src="images/banner.jpg" /></a>
+           </div>
+        </div>
+</header>
+<section id="detail">
+<div class="blank">
+    <div class="title_2">
+        <div class="section1">
+            <a class="image_feature"><img src="images/pic01.jpg" /></a>
+            <h2>Welcome to Halcyonic</h2>
+            <p>This is Halcyonic, a free site template by N33 for HTML5 Up! It's responsive, built on HTML5 + CSS3, and includes 5 unique page layouts.</p>
+        </div>
+
+        <div class="section1">
+            <a class="image_feature"><img src="images/pic02.jpg" /></a>
+            <h2>Responsive You Say?</h2>
+            <p>Yes! Halcyonic is built on the 5grid framework, so it has full responsive support for desktop, tablet, and mobile device displays.</p>
+        </div>
+        
+        <div class="section1">
+            <a class="image_feature"><img src="images/pic03.jpg" /></a>
+            <h2>License Info</h2>
+            <p>Halcyonic is licensed under the CCA 3.0 license, so use it for personal or commercial use as much as you like (just keep the footer credit intact).</p>
+        </div>
+
+        <div class="section1">
+            <a class="image_feature"><img src="images/pic04.jpg" /></a>
+            <h2>Volutpat etiam aliquam</h2>
+            <p>Duis neque nisi, dapibus sed mattis quis, rutrum accumsan sed. Suspendisse eu varius nibh. Suspendisse vitae magna eget odio amet mollis.</p>
+        </div>
+    </div>
+</div>
+</section>
+<section id="inner">
+    <div class="blank">
+        <div class="title_2">
+            <div class="inner_1">
+                <h1>Who We Are</h1>
+                <p style="color:rgb(145, 145, 145);line-height: 1.9rem;">A subheading about who we are</p>
+                <img src="images/pic05.jpg" />
+                <p>Duis neque nisi, dapibus sed mattis quis, rutrum accumsan sed. Suspendisse eu varius nibh. Suspendisse vitae magna eget odio amet mollis justo facilisis quis. Sed sagittis mauris amet tellus gravida lorem ipsum.</p>
+            </div>
+
+            <div class="inner_1">
+                <h1>Who We Do</h1>
+                <p style="color:rgb(145, 145, 145);line-height: 1.9rem;">A subheading about what we do</p>
+                <ul>
+                    <li>Sed mattis quis rutrum.</li>
+                    <li>Eu varius nibh lorem.</li>
+                    <li>Magna eget odio amet.</li>
+                    <li>Sed mattis quis rutrum.</li>
+                    <li>Facilisis sagit mauris.</li>
+                    <li>Amet gravi lorem ipsum.</li>
+                </ul>
+            </div>
+
+            <div class="inner_2">
+                <h1>What People Are Saying</h1>
+                <p style="color:rgb(145, 145, 145);line-height: 1.9rem;">And a final subheading about </p>
+                <ul>
+                    <li>
+                        <img src="images/pic06.jpg" />
+                        <p>"Neque mattis"</p>
+                        <span>Jane Doe, CEO of UntitledCorp</span>
+                    </li>
+                    <li style="border-bottom:none;">
+                        <img src="images/pic07.jpg" />
+                        <p>"Lorem ipsum"</p>
+                        <span>John Mary, CFO of UntitledBiz</span>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="inner_4">
+                <div>
+                    <h1>Who is the winner?</h1>
+                    <p>Only hard work is the winner <span style="font-weight:bold;color: black">>></span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<footer id="footer">
+    <div class="blank">
+    <div class="footer_1">
+        <div>
+            <h1>SUBSCRIBE OUR NEWSLETTER</h1>
+            <input placeholder="Email Address"/>
+            <button>SUBMIT</button>
+            <h1>STARTLED</h1>
+            <p>Copyright © 2018.Company name All rights reserved.U饭云餐</p>
+        </div>
+
+        <div>
+            <h1>JOIN US IN THE FOLLOWING </h1>
+            <p class="text">Duis neque nisi, dapibus sed mattis quis, rutrum accumsan sed. 
+                Suspendisse eu varius nibh. Suspendisse vitae magna eget odio amet 
+                mollis. Duis neque nisi, dapibus sed mattis quis, sed rutrum accumsan 
+                sed. Suspendisse eu varius nibh lorem ipsum amet dolor sit amet lorem 
+                ipsum consequat gravida justo mollis.</p>
+            
+        </div>  
+    </div>
+</div>
+</footer>
+</body>
+</html>
