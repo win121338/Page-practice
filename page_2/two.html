@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/jQuery 3.3.1.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <title>摄影爱好基地——About</title>
+</head>
+<style>
+body{
+  background-color: rgb(224, 220, 220);
+}
+a:link{
+  text-decoration:none;
+}
+#img img{
+    cursor: pointer;
+	transition: all 0.6s;
+
+}
+#img img:hover{
+    transform: scale(1.1);
+    opacity: 0.7;
+}
+#article h3::before{
+    content: "";
+    border-left:5px solid #9c2828;
+    height: 2px;
+    margin-right:3px;
+}
+.navbar-fixed-top{
+    top:0;
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+#article_1 h4{
+    font-weight: 400;
+    color: #494545
+}
+#article_1 p{
+    color: #534e4e;
+    
+}
+
+</style>
+<body>
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark navbar-fixed-top">
+    <div class="container bg-dark">
+    <a class="navbar-brand" href="#">摄影爱好基地</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse"
+        data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar navbar-nav" id="nav" >
+            <li class="nav-item"><a class="nav-link" style="padding-right:1rem;" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" style="padding-right:1rem;" href="two.html">About</a></li>
+            <li class="nav-item"><a class="nav-link" style="padding-right:1rem;" href="three.html">Text</a></li>
+            <li class="nav-item"><a class="nav-link" style="padding-right:1rem;" href="four.html">Select</a></li>
+            <li class="nav-item"><a class="nav-link" style="padding-right:1rem;" href="#">Welcome</a></li>
+            <li class="nav-item"><a class="nav-link" style="padding-right:1rem;" href="#">Inside</a></li>
+            <li class="nav-item"><a class="nav-link" style="padding-right:1rem;"href="#">Hihi</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Exit</a></li>
+        </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="jumbotron">
+    <div class="container">
+    <h1 class="display-3" style="margin-top:20px;">Welcome Fan</h1>
+    <p style="font-size:1.2rem;">
+      喜欢摄影，很简单的是因为它能记录下动人的瞬间，能在以后的日子久久回味当时按下快门的情景、心境.
+      但是摄影并不等于照相，摄影是倾注你的情感于照片上，每按一下快门都应该思考为什么要拍下这张照片，
+      它的意义，如何运用手中仅有的工具去表达你心中想表现的东西。
+    </p>
+    <p>
+        <a class="btn btn-primary" data-toggle="modal" data-target="#myModal">Learn More</a>
+    </p>
+   </div>
+</div>
+
+<!-- 模态框（Modal） -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                   
+                    <h4 class="modal-title" id="myModalLabel">您好！</h4>
+                </div>
+                <div class="modal-body">请登陆网址https://www.vcg.com了解更多</div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                    
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal -->
+    </div>
+
+
+<div class="container" id="article">
+  
+    <h3>文章分享</h3>
+    <div style="margin:18px">
+    <div class="row" id="article_1">
+        <div class="col-sm-4" style="border:1px solid rgb(185, 183, 183);background-color: rgb(238, 235, 235);padding: 20px;box-shadow: 1px 2px 4px #888888;">
+            <h4>人物摄影</h4>
+            <p>绝大多数人像照片都是在与眼睛平行的高度拍摄，换一个角度往往能完全改变一张照片的表现力，主灯光的照射角度宜稍高与稍侧，
+                使脸上产生投影，就能使脸形显得瘦一些。所以很多摄影老手都会告诉你：不妨站在你能达到的最高点... </p>
+            <p><a href="#">Even More >></a></p>
+        </div>
+        <div class="col-sm-4" style="border:1px solid rgb(185, 183, 183);background-color: rgb(238, 235, 235);padding: 20px;box-shadow: 1px 2px 4px #888888;">
+            <h4>风景摄影</h4>
+            <p>在风景区创作，优势与难度都是显而易见的。好的一面：空气品质好，光线通透且方向感强，拍出来的照片清澈明亮。蓝天白云的机会多，
+                不像在城市里，取景框里几乎不敢出现天空。在逆光拍摄时，对脸部的补光应该稍弱于背景光... </p>
+            <p><a href="#">Even More >></a></p>
+        </div>
+        <div class="col-sm-4" style="border:1px solid rgb(185, 183, 183);background-color: rgb(238, 235, 235);padding: 20px;box-shadow: 1px 2px 4px #888888;">
+            <h4>高级摄影</h4>
+            <p>在光线处理上，不同角度的光线会带来不同的效果。顺光拍摄：画面明亮，色彩还原充分，容易拍出柔美的画面，缺点是人、景的立体感较差。
+            值得注意的是，顺光拍摄要避开过强的阳光，否则模特的眼睛会因为强光而无法睁开... </p>
+            <p><a href="#">Even More >></a></p>
+        </div>
+    </div>
+</div>
+
+<div id="img">
+    <h3 style="margin-bottom:20px">佳图赏析</h3>
+   <div class="row">
+       <div class="col-3">
+            <img src="images/about1.jpg" width="100%" height="100%"/>
+       </div>
+       <div class="col-3">
+            <img src="images/about2.jpg" width="100%" height="100%"/>
+       </div>
+       <div class="col-3">
+            <img src="images/about3.jpg" width="100%" height="100%"/>
+       </div>
+       <div class="col-3">
+            <img src="images/about4.jpg" width="100%" height="100%"/>
+       </div>
+   </div>
+   <div class="row" style="margin-top:20px;margin-bottom:20px;">
+       <div class="col-4">
+           <img src="images/about5.jpg" width="100%" height="100%" />
+       </div>
+       <div class="col-4">
+            <img src="images/about6.jpg" width="100%" height="100%" />
+       </div>
+       <div class="col-4">
+            <img src="images/about7.jpg" width="100%" height="100%" />
+       </div>
+   </div>
+</div>
+</div>
+
+
+
+<footer class="jumbotron text-center bg-dark" style="margin:0;">
+     <p style="color:#fff">Hello world! 摄影爱好者@</p>
+     <p style="color:#fff">Copyright © Hello world   All Rights Reserved.</p>
+</footer>
+    
+<script>
+
+</script>
+</body>
+</html>
